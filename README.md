@@ -4,6 +4,8 @@ This is a Linux only solution to save screenshots using xfce4-screenshooter and 
 
 ## Usage
 
+    require 'x4ss'
+
     x4ss = X4ss.new '/tmp/fun.png'
     x4ss.capture
 
